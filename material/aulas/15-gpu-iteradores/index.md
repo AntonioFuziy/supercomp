@@ -17,7 +17,7 @@ $$\frac{1}{n}\sum_{i=0}^n (x_i - \mu)^2$$
 Apesar do código acima funcionar, ele tem um problema grave: é preciso alocar um vetor inteiro somente para preenchê-lo com valores iguais! Se estivermos trabalhando com muitos dados isto significa diminuir bastante a quantidade de dados que conseguimos tratar antes de acabar com a memória da GPU. Podemos contornar isso usando iteradores, que são vetores gerados dinamicamente pela thrust a partir de um valor único ou a partir de outros vetores.
 
 !!! example
-    Pesquise a documentação de `thrust::constant_iterator` e use-o para substituir a alocação de memória extra no exercício acima.
+    Pesquise a documentação de [thrust::constant_iterator](https://thrust.github.io/doc/classthrust_1_1constant__iterator.html) e use-o para substituir a alocação de memória extra no exercício acima.
 
 Vamos agora nos preparar para a parte 2 criando um programa novamente em cima do arquivo `stocks.txt`.
 

@@ -71,7 +71,7 @@ Para cada estratégia que vamos estudar, implementaremos um programa corresponde
 3. [Busca Exaustiva](exaustiva) (22/04)
 4. Relatório Preliminar (29/04)
 5. [Paralelismo Multicore](openmp) (13/05)
-6. Paralelismo GPU (27/05)
+6. [Paralelismo GPU](gpu) (27/05)
 7. Relatório Final (03/06)
 
 <!-- 1. [Solução Heurística](heuristico) (23/03)
